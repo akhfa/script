@@ -4,6 +4,7 @@
 # RUN THIS SCRIPT FROM CORDOVA PROJECT FOLDER					      #
 # THE FOLDER CAN BE GIT REPOSITORY						      #
 # PLEASE PUSH TO MASTER BEFORE BUILD THE APK, OR CHANGE MASTER TO THE BRANCH YOU WANT #
+# MAKE SURE WEB DIRECTORY IS WRITABLE BY CORDOVA USER				      #
 #######################################################################################
 git checkout .
 git pull origin master
