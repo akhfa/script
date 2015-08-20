@@ -13,6 +13,8 @@ chmod -R 755 /var/www/blog.akhfa.me/public_html
 # mkdir /etc/httpd/sites-enabled
 # echo "IncludeOptional sites-enabled/*.conf" >> /etc/httpd/conf/httpd.conf
 
-# wget example.com.conf
+cp example.com.conf /etc/httpd/sites-available/blog.akhfa.me.conf
 
 ln -s /etc/httpd/sites-available/blog.akhfa.me.conf /etc/httpd/sites-enabled/blog.akhfa.me.conf
+
+systemctl restart httpd
