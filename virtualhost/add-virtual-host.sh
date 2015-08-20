@@ -1,4 +1,9 @@
 #!/bin/bash
+
+# uncomment this if you have not install httpd yet
+# yum -y install httpd
+# systemctl enable httpd.service
+
 mkdir -p /var/www/blog.akhfa.me/public_html
 chown -R $USER:$USER /var/www/blog.akhfa.me/public_html
 chmod -R 755 /var/www/blog.akhfa.me/public_html
